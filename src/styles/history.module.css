@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    color: #ffffff;
+    padding: 20px;
+    height: 100vh;
+}
+
+.formSearch{
+    display: flex;
+    align-items: center;
+}
+
+.formSearch > :is(button, input, span){
+    margin-left: 10px;
+}
+
+
+.panel{
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+    min-height: 90%;
+}
+
+.panelTitleGroup{
+    display: flex;
+    height: 45px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.table{
+    display: block;
+    overflow-y: auto;
+    height: 100%;
+}
+
+.empty{
+    width: 100%;
+    text-align: center;
+}

@@ -1,0 +1,64 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    padding: 20px;
+    height: 100vh;
+}
+
+.panel{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 90%;
+}
+
+.panelTitleGroup{
+    display: flex;
+    height: 45px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.table{
+    display: block;
+    overflow-y: auto;
+    height: 100%;
+}
+
+.table > table > tbody > tr > td > button{
+    margin-right: 10px;
+}
+/* Modal */
+.modalBody{
+    display: flex;
+}
+
+.modalBodyColLeft{
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.modalBodyColRight{
+    flex: 2;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.modalBodyRow{
+    margin-bottom: 20px;
+}
+
+.modalBodyRow > span{
+    padding-left: 10px;
+}
+
+.textFieldAdd{
+    height: 80px;
+}
+
+.textFieldTemp{
+    height: 160px;
+}
